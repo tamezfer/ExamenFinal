@@ -1,5 +1,7 @@
 {
   "name": "MyTree",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "ionic-angular"
 }

@@ -1,0 +1,33 @@
+<!--
+  Generated template for the AgregarPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar>
+    <ion-title>Agregar</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only (click)= "getPicture()">
+        <ion-icon name= "camera"></ion-icon>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding style="background-color:rgb(123, 210, 237)">
+    <ion-list>
+        <ion-item style="background-color:rgb(216, 132, 218)">
+          <ion-input type="text" placeholder="Tipo" [(ngModel)]="Tipo"></ion-input>
+        </ion-item>
+        <ion-item color="#918CCE">
+          <ion-input type="text" placeholder="Copa" [(ngModel)]="Copa"></ion-input>
+        </ion-item>
+        <ion-item style="background-color:rgb(216, 132, 218)">
+          <ion-input type="text" placeholder="Tronco" [(ngModel)]="Tronco"></ion-input>
+        </ion-item>
+    </ion-list>
+        
+<button ion-button block (click)= "Agregar()">Agregar</button>
+
+</ion-content>
